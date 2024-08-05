@@ -2,12 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <RootNamespace>Aviator_Hack</RootNamespace>
     <Nullable>enable</Nullable>
+    <UseWPF>false</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>aviator.ico</ApplicationIcon>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +20,7 @@
     <PackageReference Include="CircularProgressBar" Version="2.2.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+    <PackageReference Include="WinFormAnimation" Version="1.3.0" />
   </ItemGroup>
 
   <ItemGroup>
